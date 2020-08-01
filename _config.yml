@@ -1,0 +1,14 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "Hivemind" # the name of your site, e.g. ACME Corp.
+description: >- # this means to ignore newlines until "baseurl:"
+  HiveMind is an artistic musical collective, which aims to connect audiophiles. This project has the mission to discover up-and-coming talents and spread their unique vibe to the community.
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  podcasts:
+    output: true
