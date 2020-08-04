@@ -4,6 +4,18 @@ title: "Hivemind" # the name of your site, e.g. ACME Corp.
 description: >- # this means to ignore newlines until "baseurl:"
   HiveMind is an artistic musical collective, which aims to connect audiophiles. This project has the mission to discover up-and-coming talents and spread their unique vibe to the community.
 
+## Social media:
+#Youtube
+youtube_channel: UCRqQAj1mmWksHQ8kGsphvbw
+#Instagram
+instagram: hvmdmusic
+#Soundcloud
+soundcloud: hvmdmusic
+#Facebook
+facebook: hvmdmusic
+#Spotify
+spotify: 5dag4idr67ksqxw8r5srjg0xy
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

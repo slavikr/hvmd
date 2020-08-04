@@ -1,0 +1,39 @@
+{% if site.youtube_channel %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.youtube.com/channel/{{ site.youtube_channel | escape }}" target="_blank">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if site.facebook %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.facebook.com/{{ site.facebook | escape }}" title="{{ site.facebook | escape }}" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if site.instagram %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.instagram.com/{{ site.instagram | escape }}" title="{{ site.instagram | escape }}" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if site.soundcloud %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://soundcloud.com/{{ site.soundcloud | escape }}" title="{{ site.soundcloud | escape }}" target="_blank">
+      <i class="fab fa-soundcloud"></i>
+    </a>
+  </li>
+{% endif %}
+
+{% if site.spotify %}
+  <li class="nav-item">
+    <a class="nav-link" href="https://open.spotify.com/user/{{ site.spotify | escape }}" title="{{ site.spotify | escape }}" target="_blank">
+      <i class="fab fa-spotify"></i>
+    </a>
+  </li>
+{% endif %}

@@ -6,3 +6,18 @@ body {
   color: $bodyColor !important;
   font-family: 'Montserrat', sans-serif !important;
 }
+
+.container-fluid {
+	padding: 0 !important;
+}
+
+.navbar-barnd, .navbar-dark {
+	a {
+		font-weight: bold !important;
+		text-transform: uppercase !important;
+	}
+}
+
+.nav-link {
+	font-size: 14px !important;
+}
