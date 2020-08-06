@@ -12,3 +12,21 @@ body {
 
 .nav-link {
   font-size: 14px !important; }
+
+.podcast {
+  letter-spacing: 0.063rem;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important; }
+  .podcast h2 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px; }
+  .podcast .artist_social {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .podcast .artist_social .nav-link {
+      color: white;
+      font-size: 2rem !important; }

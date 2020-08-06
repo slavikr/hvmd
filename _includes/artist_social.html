@@ -1,0 +1,41 @@
+<ul class="artist_social">
+  {% if page.youtube_channel %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.youtube.com/channel/{{ page.youtube_channel }}" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if page.facebook %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.facebook.com/{{ page.facebook | escape }}" title="{{ page.facebook }}" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if page.instagram %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.instagram.com/{{ page.instagram | escape }}" title="{{ page.instagram }}" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if page.soundcloud %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://soundcloud.com/{{ page.soundcloud | escape }}" title="{{ page.soundcloud | escape }}" target="_blank">
+        <i class="fab fa-soundcloud"></i>
+      </a>
+    </li>
+  {% endif %}
+
+  {% if page.spotify %}
+    <li class="nav-item">
+      <a class="nav-link" href="https://open.spotify.com/user/{{ page.spotify | escape }}" title="{{ page.spotify | escape }}" target="_blank">
+        <i class="fab fa-spotify"></i>
+      </a>
+    </li>
+  {% endif %}
+</ul>
