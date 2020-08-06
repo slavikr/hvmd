@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Mindcast"
+---
+
+{% for podcast in site.podcasts %}
+  
+  <a class="fancy-link" href="{{ podcast.url | relative_url }}">{{ podcast.title }}</a> 
+{% endfor %}
