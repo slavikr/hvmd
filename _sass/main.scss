@@ -49,8 +49,8 @@ body {
 }
 
 .cropped {
-	width: 200px; /* width of container */
-  height: 200px; /* height of container */
   object-fit: cover;
+	width: 200px;
+  height: 200px;
 }
 

@@ -32,8 +32,6 @@ body {
       font-size: 2rem !important; }
 
 .cropped {
+  object-fit: cover;
   width: 200px;
-  /* width of container */
-  height: 200px;
-  /* height of container */
-  object-fit: cover; }
+  height: 200px; }
