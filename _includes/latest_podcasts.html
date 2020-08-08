@@ -1,5 +1,5 @@
 {% for podcast in site.podcasts reversed limit:9 %}
-  <a href="{{ podcast.url }}">
-    <img class="cropped"  src="{{ podcast.image }}">
+  <a href="{{ podcast.url | relative_url }}">
+    <img class="cropped"  src="{{ podcast.image | relative_url }}">
   </a>
 {% endfor %}
