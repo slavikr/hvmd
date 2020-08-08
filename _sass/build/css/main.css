@@ -30,3 +30,10 @@ body {
     .podcast .artist_social .nav-link {
       color: white;
       font-size: 2rem !important; }
+
+.cropped {
+  width: 200px;
+  /* width of container */
+  height: 200px;
+  /* height of container */
+  object-fit: cover; }

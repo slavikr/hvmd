@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title: "Meet Kharl"
+title: "Test Artist 8"
 permalink: /:title
-artist: Kharl
+artist: Test Artist 8
 youtube_channel: 
 facebook: test
 soundcloud: test
