@@ -1,6 +1,6 @@
-<div class="row">
+<div class="row g-1">
 {% for podcast in site.podcasts reversed limit:9 %}
-  <div class="col-4">
+  <div class="col-lg-4 col-sm-6">
     <a href="{{ podcast.url | relative_url }}">
       <img class="cropped"  src="{{ podcast.image | relative_url }}" alt="{{ podcast.title }}" loading="lazy">
     </a>    
