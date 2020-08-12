@@ -35,3 +35,8 @@ body {
   object-fit: cover;
   width: 200px;
   height: 200px; }
+
+@media (max-width: 575.98px) {
+  .cropped {
+    width: 90px;
+    height: 90px; } }
