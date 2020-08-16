@@ -46,17 +46,48 @@ body {
 			font-size: 2rem !important;
 		}
 	}
-}
 
-.cropped {
-  object-fit: cover;
-	width: 200px;
-  height: 200px;
-}
-
-@media (max-width: 575.98px) {
 	.cropped {
-		width: 90px;
-  	height: 90px;
+	  object-fit: cover;
+		
 	}
+	
+	@media (min-width: 1400px) {
+		.cropped {
+			width: 200px;
+	  	height: 200px;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.cropped {
+			width: 200px;
+	  	height: 200px;
+		}
+	}
+
+	@media (min-width: 992px) {
+		.cropped {
+			width: 200px;
+	  	height: 200px;
+		}
+	}
+
+	@media only screen and (max-width: 767.98px) {
+		.cropped {
+			width: 120px;
+	  	height: 120px;
+		}
+	}
+	@media only screen and (max-width: 575.98px) {
+		.cropped {
+			width: 90px;
+	  	height: 90px;
+		}
+	}
+
 }
+
+
+
+

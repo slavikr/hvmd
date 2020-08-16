@@ -30,13 +30,25 @@ body {
     .podcast .artist_social .nav-link {
       color: white;
       font-size: 2rem !important; }
-
-.cropped {
-  object-fit: cover;
-  width: 200px;
-  height: 200px; }
-
-@media (max-width: 575.98px) {
-  .cropped {
-    width: 90px;
-    height: 90px; } }
+  .podcast .cropped {
+    object-fit: cover; }
+  @media (min-width: 1400px) {
+    .podcast .cropped {
+      width: 200px;
+      height: 200px; } }
+  @media (min-width: 1200px) {
+    .podcast .cropped {
+      width: 200px;
+      height: 200px; } }
+  @media (min-width: 992px) {
+    .podcast .cropped {
+      width: 200px;
+      height: 200px; } }
+  @media only screen and (max-width: 767.98px) {
+    .podcast .cropped {
+      width: 120px;
+      height: 120px; } }
+  @media only screen and (max-width: 575.98px) {
+    .podcast .cropped {
+      width: 90px;
+      height: 90px; } }
